@@ -1,0 +1,47 @@
+.specifity {
+    @include font (36px, 700, 42px);
+    text-align: center;
+    color: var(--tittle-text-color);
+}
+
+.section-tittle {
+    margin-bottom: 50px;
+}
+
+.what-we-do {
+    padding-top: 0;
+}
+
+.what-we-do-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.what-me-do-pos {
+    position: relative;
+}
+
+.what-we-do-item {
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.what-we-do-subtittle {
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.what-we-do-subtittle-text {
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-hero);
+}

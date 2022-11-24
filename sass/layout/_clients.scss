@@ -1,0 +1,42 @@
+.regular-clients-tittle {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heared-nav-link);
+  margin-bottom: 50px;
+}
+
+.regular-clients-list {
+  @extend %justify;
+
+  margin-left: auto;
+  gap: 30px;
+}
+
+.regular-clients-link {
+ @extend %justify;
+  min-width: 170px;
+  min-height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.regular-clients-svg {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.regular-clients-link {
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:focus,
+  &:hover {
+    border-color: var(--botton-action-text-color);
+  }
+}
+
+.regular-clients-link:hover .regular-clients-svg,
+.regular-clients-link:focus .regular-clients-svg {
+  fill: var(--botton-action-text-color);
+}

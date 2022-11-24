@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goit-markup-hw-07</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+     <link rel="stylesheet" href="./CSS/main.min.css">
+  </head>
+
+  <body>
+    <!-- это шапка -->
+     <header class="header">
+      <div class="conteiner header-conteiner">
+        <nav class="header-nav">
+          <a href="./index.html" class="header-logo">
+            <span class="header-logo-sub">Web</span>Studio</a
+          >
+          <ul class="header-nav-list list">
+            <li class="header-nav-list__item">
+              <a class="header-nav-list__link link " href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="header-nav-list__item">
+              <a class="header-nav-list__link_current link " href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="header-nav-list__item">
+              <a class="header-nav-list__link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact-list list">
+          <li class="contact-list__mail-link">
+         
+
+            <a
+              class="contact-list__link-header link contact-mail"
+              href="mailto:info@devstudio.com">
+                 <svg class="mail-svg">
+              <use href="./images/SVG/symbol-defs.svg#envelope"></use>
+            </svg>info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-list__tell-link">
+            
+            <a class="contact-list__link-header link" href="tel:+380961111111"
+              >
+              <svg class="tell-svg">
+              <use href="./images/SVG/symbol-defs.svg#smartphone"></use>
+            </svg>+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- уникальный контент -->
+    <main>
+      <section class="section">
+        <div class="conteiner portfolio-conteiner">
+          <h1 class="visually-hidden">примеры работ</h1>
+          <ul class="filter-list list">
+            <li class="filter-list-item">
+              <button class="portfolio-button current-button" type="button">
+                Все
+              </button>
+            </li>
+            <li class="filter-list-item">
+              <button class="portfolio-button" type="button">Веб-сайты</button>
+            </li>
+            <li class="filter-list-item">
+              <button class="portfolio-button" type="button">Приложения</button>
+            </li>
+            <li class="filter-list-item">
+              <button class="portfolio-button" type="button">Дизайн</button>
+            </li>
+            <li class="filter-list-item">
+              <button class="portfolio-button" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <!-- карточки проектов -->
+          <ul class="portfolio-list list">
+            <li class="portfolio-list-item">
+
+              <a class="link-portfolio link" href="">
+               
+                <div class="team-list-img-wrapper">
+                   <img
+                  src="./images/portfolio/img.jpg"
+                  alt="website"
+                  width="370"
+                  height="294"
+                  
+                />
+                <p class="overlay">Technoduck is a state-of-the-art coronavirus distribution platform. 
+                  Companies use this platform for digital espionage and attacks on competitors' 
+                  secure servers.</p>
+                </div>
+                
+                <div class="card-info">
+                  <h2 class="tittle-portfolio">Технокряк</h2>
+                  <p class="text-portfolio">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-list-item">
+              <a class="link-portfolio link" href="">
+
+                <div class="team-list-img-wrapper">
+                    <img
+                  src="./images/portfolio/img (1).jpg"
+                  alt="design"
+                  width="370"
+                  height="294"
+                />
+                    <p class="overlay">Technoduck is a state-of-the-art coronavirus distribution platform. 
+                  Companies use this platform for digital espionage and attacks on competitors' 
+                  secure servers.</p>
+                </div>
+              
+                <div class="card-info">
+                  <h2 class="tittle-portfolio">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="text-portfolio">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-list-item">
+              <a class="link-portfolio link" href="">
+                
+                  
+                <div class="team-list-img-wrapper">
+  <img
+                  src="./images/portfolio/img (2).jpg"
+                  alt="application"
+                  width="370"
+                  height="294"
+                />
+<p class="overlay">Technoduck is a state-of-the-art coronavirus distribution platform. 
+                  Companies use this platform for digital espionage and attacks on competitors' 
+                  secure servers.</p>
+                </div>
+              
+                <div class="card-info">
+                  <h2 class="tittle-portfolio">Ресторан Seafood</h2>
+                  <p class="text-portfolio">Приложение</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-list-item">
+              <a class="link-portfolio link" href="">
+                <div class="team-list-img-wrapper">
+  <img
+                  src="./images/portfolio/img (3).jpg"
+                  alt="project-prime"
+                  width="370"
+                  height="294"
+                />
+                  <p class="overlay">Technoduck is a state-of-the-art coronavirus distribution platform. 
+                  Companies use this platform for digital espionage and attacks on competitors' 
+                  secure servers.</p>
+                </div>
+              
+                <div class="card-info">
+                  <h2 class="tittle-portfolio">Проект Prime</h2>
+                  <p class="text-portfolio">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-list-item">
+              <a class="link-portfolio link" href="">
+                <div class="team-list-img-wrapper">
+                    <img
+                  src="./images/portfolio/img (4).jpg"
+                  alt="web-site"
+                  width="370"
+                  height="294"
+                />
+               <p class="overlay">Technoduck is a state-of-the-art coronavirus distribution platform. 
+                  Companies use this platform for digital espionage and attacks on competitors' 
+                  secure servers.</p>
+                </div>
+              
+                <div class="card-info">
+                  <h2 class="tittle-portfolio">Проект Boxes</h2>
+                  <p class="text-portfolio link">Приложение</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-list-item">
+              <a class="link-portfolio link" href="">
+                <div class="team-list-img-wrapper">
+                        <img
+                  src="./images/portfolio/img (5).jpg"
+                  alt="pmarketing"
+                  width="370"
+                  height="294"
+                />
+  <p class="overlay">Technoduck is a state-of-the-art coronavirus distribution platform. 
+                  Companies use this platform for digital espionage and attacks on competitors' 
+                  secure servers.</p>
+                </div>
+          
+
+                <div class="card-info">
+                  <h2 class="tittle-portfolio link">Inspiration has no Borders</h2>
+                  <p class="text-portfolio">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-list-item">
+              <a class="link-portfolio link" href="">
+                <div class="team-list-img-wrapper">
+                     <img
+                  src="./images/portfolio/img (6).jpg"
+                  alt="design"
+                  width="370"
+                  height="294"
+                />
+  <p class="overlay">Technoduck is a state-of-the-art coronavirus distribution platform. 
+                  Companies use this platform for digital espionage and attacks on competitors' 
+                  secure servers.</p>
+                </div>
+             
+                <div class="card-info">
+                  <h2 class="tittle-portfolio link">Издание Limited Edition</h2>
+                  <p class="text-portfolio">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-list-item">
+              <a class="link-portfolio link" href="">
+
+                <div class="team-list-img-wrapper">
+                     <img
+                  src="./images/portfolio/img (7).jpg"
+                  alt="project-lab"
+                  width="370"
+                  height="294"
+                />
+  <p class="overlay">Technoduck is a state-of-the-art coronavirus distribution platform. 
+                  Companies use this platform for digital espionage and attacks on competitors' 
+                  secure servers.</p>
+                </div>
+             
+                <div class="card-info">
+                  <h2 class="tittle-portfolio link">Проект LAB</h2>
+                  <p class="text-portfolio">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-list-item">
+              <a class="link-portfolio link" href="">
+                <div class="team-list-img-wrapper">
+                    <img
+                  src="./images/portfolio/img (8).jpg"
+                  alt="business"
+                  width="370"
+                  height="294"
+                />
+  <p class="overlay">Technoduck is a state-of-the-art coronavirus distribution platform. 
+                  Companies use this platform for digital espionage and attacks on competitors' 
+                  secure servers.</p>
+                </div>
+              
+                <div class="card-info">
+                  <h2 class="tittle-portfolio">Growing Business</h2>
+                  <p class="text-portfolio">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+   <!-- FOOTER -->
+    <footer class="footer">
+     <div class="conteiner footer-conteiner">
+<div class="footer-contact">
+ <a href="./index.html" class="footer-logo link">
+              <span class="footer-logo-sub">Web</span>Studio</a
+            >
+            <address class="address-footer">
+              <ul class="footer-nav-list list">
+                <li class="footer-nav-item">
+                  <a
+                    class="footer-nav-link link"
+                    href="https://goo.gl/maps/95omFK55Zk3BSgoX8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li class="footer-nav-item">
+                  <a class="link-footer link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="footer-nav-item">
+                  <a class="link-footer link" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+</div>
+
+<div class="footer-social">
+  <h3 class="footer-tittle">Присоединяйтесь</h3>
+  <ul class="footer-main-list list">
+        <li class="footer-main-adress">
+        </li>
+        <li class="footer-social">
+          <ul class="social-list list">
+            <li class="social-list-item">
+              <a href="" class="social-list-link-footer">
+                <svg class="social-list-icon-footer" width="20" height="20">
+                  <use href="./images/SVG/symbol-defs.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link-footer">
+                <svg class="social-list-icon-footer" width="20" height="20">
+                  <use href="./images/SVG/symbol-defs.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link-footer">
+                <svg class="social-list-icon-footer" width="20" height="20">
+                  <use href="./images/SVG/symbol-defs.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link-footer">
+                <svg class="social-list-icon-footer" width="20" height="20">
+                  <use href="./images/SVG/symbol-defs.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+</div>
+
+    <div class="footer-form">
+   <p class="footer-tittle-form">
+    Подпишитесь на рассылку
+  </p>
+  <form class="footer-form-input">
+   
+    <div class="footer-form-info">
+<input type="email" name="user_email" class="modal-form-footer-input" 
+autocomplete="off" placeholder="E-mail"> 
+<button type="submit" class="footer-submit-button">Подписаться
+  <svg class="telegram-svg" width="24"
+          height="24">
+    <use href="./images/SVG/symbol-defs.svg#icon-send"></use>
+  </svg>
+</button>
+    </div>
+
+  </form>
+           
+ 
+</div>
+    </footer>
+    <!-- /FOOTER -->
+
+  </body>
+</html>

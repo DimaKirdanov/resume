@@ -1,0 +1,37 @@
+.qualities .conteiner {
+    gap: 30px;
+}
+
+.qualities__subtittle {
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--tittle-text-color);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.qualities__text {
+    line-height: 1.71;
+
+    color: var(--text-color);
+}
+
+
+
+.qualities-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qualities__item {
+    flex-basis: calc((100% - 90px) / 4);
+}
+
+
+.qualities__img-bg {
+   @extend %justify;
+    background-color: var(--background-team);
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
